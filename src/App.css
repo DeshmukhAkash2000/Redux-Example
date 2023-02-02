@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  padding: 100px;
+  border: 2px solid black;
+  margin-top: 100px;
+  box-shadow: 2px 2px 2px 5px grey;
+  box-sizing: border-box;
+}
+
+h1{
+  color: gray;
+  font-style: italic;
+  cursor: pointer;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+button{
+  padding: .7rem;
+  width: 4rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px pink;
+  cursor: pointer;
+  background-color: royalblue;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+}
